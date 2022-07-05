@@ -37,6 +37,7 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_add_to_fav"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/favorite24"
@@ -125,6 +126,7 @@
         android:layout_marginBottom="@dimen/_10sdp"
         />
     <androidx.core.widget.ContentLoadingProgressBar
+
         android:layout_width="match_parent"
         android:layout_height="5dp"
         android:id="@+id/progress_bar"
